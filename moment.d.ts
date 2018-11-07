@@ -733,4 +733,6 @@ declare namespace moment {
 
 }
 
-export = moment;
+declare module "moment" {
+  export = moment;
+}
